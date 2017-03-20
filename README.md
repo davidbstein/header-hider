@@ -2,9 +2,9 @@
 
 ## Hide the header when the user is readin'
 
-A very light-weight javascript plug in that finds the `<header>` on a page and hides in when the user scrolls down, but reveals it when the user scrolls up.
+A very light-weight javascript plug in that finds the `<header>` on a page and hides it when the user scrolls down, then reveals it when the user scrolls up.
 
-Works by setting a negative `margin-top` for the `<header>` when the use scrolls down and removing it when the user scrolls up.
+Works by setting and removing a negative `margin-top` on the `<header>`.
 
 ![header-hider-example](header-hider-example.gif)
 
