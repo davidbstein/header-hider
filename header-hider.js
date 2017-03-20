@@ -1,3 +1,4 @@
+//TODO: remove the embarassing scoping hax.
 (function(){
   var header_hider = function(){
     this.scrollY = 0;
