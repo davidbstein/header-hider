@@ -11,7 +11,17 @@ Works by setting and removing a negative `margin-top` on the `<header>`.
 
 ## to use
 
-just include the script:
+Make sure your header is `fixed` to the top
+
+```
+header {
+    position: fixed;
+    height: 64px;
+    top: 0;
+}
+```
+
+then include the script:
 
 ```
 <script src="https://raw.githubusercontent.com/davidbstein/header-hider/master/header-hider.min.js"></script>
