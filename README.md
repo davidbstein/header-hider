@@ -11,7 +11,7 @@ Works by setting and removing a negative `margin-top` on the `<header>`.
 
 ## to use
 
-Make sure your header is `fixed` to the top
+Make a header using the `<header>` tag and set it to be `fixed` to the top of the page. I recommend you also set the `height` atrribute.
 
 ```
 header {
