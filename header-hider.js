@@ -7,11 +7,11 @@
     if (this.header == undefined){
       throw("in order to use the header hider you must have a <header>");
     }
-    this.header.style.transition = "margin-top 0.2s ease-out 0s"
+    this.header.style.transition = "margin-top 0.2s ease-out 0s;"
     this.header_height = header.offsetHeight;
     this.hidden = false;
     this.hide = (function(){
-      this.header.style.marginTop = -this.header_height;
+      this.header.style.marginTop = "" + -this.header_height + "px";
       this.hidden = true;
     }).bind(this);
     this.unhide = (function(){
